@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import './components/SearchBar/SearchBar'
 import { SearchBar } from './components/SearchBar/SearchBar';
+import { SearchResults } from './components/SearchResults/SearchResults';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
           Learn React
         </a> */}
       </header>
-      <SearchBar></SearchBar>
+      <SearchBar />
+      <SearchResults />
     </div>
   );
 }
