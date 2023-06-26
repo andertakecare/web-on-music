@@ -3,6 +3,7 @@ import './App.css';
 import './components/SearchBar/SearchBar'
 import { SearchBar } from './components/SearchBar/SearchBar';
 import { SearchResults } from './components/SearchResults/SearchResults';
+import { Playlist } from './components/Playlist/Playlist';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       </header>
       <SearchBar />
       <SearchResults />
+      <Playlist />
     </div>
   );
 }
