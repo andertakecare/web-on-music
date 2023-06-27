@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import styles from './App.module.css';
 import './components/SearchBar/SearchBar'
 import { SearchBar } from './components/SearchBar/SearchBar';
 import { SearchResults } from './components/SearchResults/SearchResults';
@@ -7,8 +7,9 @@ import { Playlist } from './components/Playlist/Playlist';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className={styles.App}>
+      {/* <header className={`${styles["App-header"]}`}> */}
+      <header className={styles["App-header"]}>
         <h1>Web-On-Music</h1>
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>

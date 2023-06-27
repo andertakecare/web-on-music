@@ -1,4 +1,4 @@
 .section {
-    flex-basis: 50%;
-    background-color: red;
+    align-self: start;
+    grid-area: results;
 }

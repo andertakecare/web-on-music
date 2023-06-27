@@ -4,13 +4,16 @@
   background-color: #282c34;
   color: white;
   min-height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template: repeat(2, 1fr) 8fr / repeat(2, 1fr);
+  grid-template-areas: 
+    "header header"
+    "search-bar search-bar"
+    "results playlists";
   align-items: center;
-  justify-content: top;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -19,11 +22,12 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   font-size: calc(10px + 2vmin);
-  flex-basis: 100%;
+  grid-area: header;
+  /* flex-basis: 100%; */
   /* color: white; */
 }
 
