@@ -1,3 +1,4 @@
 .section {
     flex-basis: 100%;
+    /* align-self: flex-start; */
 }

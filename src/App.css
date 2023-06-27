@@ -4,13 +4,14 @@
   background-color: #282c34;
   color: white;
   min-height: 100vh;
+  padding: 0 10vw;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: top;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -19,12 +20,13 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   font-size: calc(10px + 2vmin);
   flex-basis: 100%;
-  /* color: white; */
+  align-self: flex-start;
+  max-height: 10vh;
 }
 
 .App-link {
