@@ -2,9 +2,10 @@
   box-sizing: border-box;
   text-align: center;
   background-color: #282c34;
+  color: white;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: top;
 }
@@ -22,7 +23,8 @@
 
 .App-header {
   font-size: calc(10px + 2vmin);
-  color: white;
+  flex-basis: 100%;
+  /* color: white; */
 }
 
 .App-link {
